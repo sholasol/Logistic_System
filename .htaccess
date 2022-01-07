@@ -1,0 +1,56 @@
+RewriteEngine On
+
+
+##########FRONT END #######
+RewriteRule ^index?$ index.php
+RewriteRule ^login?$ login.php
+RewriteRule ^logout?$ logout.php
+
+#########ADMIN#################
+RewriteRule ^dashboard/index?$ dashboard/index.php
+RewriteRule ^dashboard/tracking?$ dashboard/tracking.php
+RewriteRule ^dashboard/trackng?$ dashboard/trackng.php
+RewriteRule ^dashboard/booking?$ dashboard/booking.php
+RewriteRule ^dashboard/abooking?$ dashboard/abooking.php
+RewriteRule ^dashboard/cancel?$ dashboard/cancel.php
+RewriteRule ^dashboard/income?$ dashboard/income.php
+RewriteRule ^dashboard/itinerary?$ dashboard/itinerary.php
+RewriteRule ^dashboard/pending?$ dashboard/pending.php
+RewriteRule ^dashboard/pickup?$ dashboard/pickup.php
+RewriteRule ^dashboard/profile?$ dashboard/profile.php
+RewriteRule ^dashboard/deliver?$ dashboard/deliver.php
+RewriteRule ^dashboard/cost?$ dashboard/cost.php
+RewriteRule ^dashboard/mCost?$ dashboard/mCost.php
+RewriteRule ^dashboard/place?$ dashboard/place.php
+RewriteRule ^dashboard/mPlace?$ dashboard/mPlace.php
+RewriteRule ^dashboard/mPackage?$ dashboard/mPackage.php
+RewriteRule ^dashboard/package?$ dashboard/package.php
+RewriteRule ^dashboard/size?$ dashboard/size.php
+RewriteRule ^dashboard/mSize?$ dashboard/mSize.php
+RewriteRule ^dashboard/admin?$ dashboard/admin.php
+RewriteRule ^dashboard/Eadmin?$ dashboard/Eadmin.php
+RewriteRule ^dashboard/mAdmin?$ dashboard/mAdmin.php
+RewriteRule ^dashboard/branch?$ dashboard/branch.php
+RewriteRule ^dashboard/Ebranch?$ dashboard/Ebranch.php
+RewriteRule ^dashboard/mBranch?$ dashboard/mBranch.php
+RewriteRule ^dashboard/office?$ dashboard/office.php
+RewriteRule ^dashboard/Eoffice?$ dashboard/Eoffice.php
+RewriteRule ^dashboard/mOffice?$ dashboard/mOffice.php
+RewriteRule ^dashboard/biker?$ dashboard/biker.php
+RewriteRule ^dashboard/Ebiker?$ dashboard/Ebiker.php
+RewriteRule ^dashboard/mBiker?$ dashboard/mBiker.php
+RewriteRule ^dashboard/payment?$ dashboard/payment.php
+RewriteRule ^dashboard/payments?$ dashboard/payments.php
+RewriteRule ^dashboard/mPayment?$ dashboard/mPayment.php
+RewriteRule ^dashboard/pay?$ dashboard/pay.php
+RewriteRule ^dashboard/receipt?$ dashboard/receipt.php
+RewriteRule ^dashboard/sreceipt?$ dashboard/sreceipt.php
+RewriteRule ^dashboard/result?$ dashboard/result.php
+RewriteRule ^dashboard/dashboard?$ dashboard/dashboard.php
+RewriteRule ^dashboard/pick_detail?$ dashboard/pick_detail.php
+RewriteRule ^dashboard/ppay?$ dashboard/ppay.php
+
+#RewriteRule ^tofficer/Eprog/([^/\.]+)?$ tofficer/Eprog.php?id=$1
+
+#RewriteRule ^ptofficer/enquiry/([^/\.]+)/([^/\.]+)?$ ptofficer/enquiry.php?id=$1&dd=$2
+
